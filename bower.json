@@ -1,0 +1,22 @@
+{
+  "name": "metodo-grafico",
+  "version": "0.0.1",
+  "authors": [
+    "Alejandro Diaz <alejo-011@hotmail.com>"
+  ],
+  "description": "Metodo grafico",
+  "main": "js/index.js",
+  "keywords": [
+    "io",
+    "metodo",
+    "grafico"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

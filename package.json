@@ -1,0 +1,15 @@
+{
+  "name": "metodo-grafico",
+  "version": "0.0.1",
+  "description": "Programa que ejecuta un método gráfico",
+  "keywords": [
+    "metodo",
+    "grafico",
+    "io"
+  ],
+  "author": "Alejandro Diaz <alejodiaz-011@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "debowerify": "^1.2.0"
+  }
+}

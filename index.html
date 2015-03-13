@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Método Gráfico</title>
+
+    <link type="text/css" rel="stylesheet" href="css/reset.css"></style>
+    <link type="text/css" rel="stylesheet" href="css/style.css"></style>
+</head>
+<body>
+    <div id="container">
+        <div id="vis"></div>
+        <div id="data">
+            <h1>Método gráfico</h1>
+            <div>
+                <h2>Funciones restricción</h2>
+                <p>x + y &ge; 100</p>
+                <p>100x - 100y &le; 0</p>
+            </div>
+
+            <div>
+                <h2>Función a evaluar</h2>
+                <form id="dataForm">
+                    <p>
+                        <select name="fnType" id="fnType">
+                            <option value="max">Maximizar</option>
+                            <option value="min">Minimizar</option>
+                        </select>
+                    </p>
+                    <p>
+                        <input type="number" required name="x">X + <input type="number" name="y">Y
+                    </p>
+                    <p>
+                        <input type="submit" value="Evaluar">
+                    </p>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
